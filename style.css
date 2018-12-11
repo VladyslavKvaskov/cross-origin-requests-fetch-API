@@ -1,0 +1,22 @@
+#result{
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+#reviews{
+
+}
+
+ul li:first-child{
+  display: none;
+}
+
+#reviews{
+  width: auto;
+  margin: 10%;
+}
+
+.voting-buttons, .read-more, .voting-prompt, .action-link-list--small{
+  display: none;
+}
