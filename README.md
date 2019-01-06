@@ -17,17 +17,4 @@ I am using cross-origin request to fetch reviews from Yelp using fetch API. Clic
         //do what you want with the data from response
         
       })
-      
-### The contents of fetch_url.php
 
-      <?php header('Content-Type: text/html');
-      $url = $_POST['url'];
-      echo file_get_contents($url);
-      ?>
-      
-#### Thanks for visiting this repository
-In the .htaccess file on the server, I wrote 
-
-      Header set Access-Control-Allow-Origin "*"
-      
-so you can access everything on the https://marinmover.com/ using fetch API.
