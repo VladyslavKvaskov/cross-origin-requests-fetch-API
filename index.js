@@ -3,7 +3,7 @@ var reviews = document.querySelector('#reviews');
 reviews.innerHTML = 'Loading...';
 
 function fetchURL() {
-fetch('https://marinmover.com/fetchAPI/fetch_url.php', {
+fetch('fetch_url.php', {
 
       method: 'POST',
       headers: {
