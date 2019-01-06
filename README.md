@@ -18,4 +18,15 @@ I am using cross-origin request to fetch reviews from Yelp using fetch API.
         
       })
 
-### PHP fetch
+### PHP file_get_contents
+You can use PHP to fetch a web page
+
+      <?php
+      echo file_get_contents('https://www.yelp.com/biz/flagship-movers-mill-valley?osq=flagship%20movers');
+      ?>
+
+And then use fetch API to fetch the result
+
+      fetch('fetch_url.php').then(response => response.json()).then(data => {
+            //do what you want with the data from response
+      })
