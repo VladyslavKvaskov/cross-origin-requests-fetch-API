@@ -1,6 +1,6 @@
 # cross-origin-requests-fetch-API
 In this repository, I have developed a php file that can be used to make cross-origin requests using fetch API.
-I am using cross-origin request to fetch reviews from Yelp using fetch API. Click [here](https://marinmover.com/fetchAPI/) to see the demo.
+I am using cross-origin request to fetch reviews from Yelp using fetch API.
 
 ## The fetch API code for requests
 
