@@ -4,7 +4,7 @@ I am using cross-origin request to fetch reviews from Yelp using fetch API.
 
 ## The fetch API code for requests
 
-      fetch('https://marinmover.com/fetchAPI/fetch_url.php', {
+      fetch('fetch_url.php', {
 
             method: 'POST',
             headers: {
